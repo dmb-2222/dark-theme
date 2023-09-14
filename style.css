@@ -1,0 +1,36 @@
+:root {
+  --background-light: #fff;
+  --text-light: #000000;
+  --background-dark: #1e1e1e;
+  --text-dark: #fff;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dark__mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+/* .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+}
+.header__navbar {
+}
+.navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+.list__item {
+  flex: 0 1 auto;
+} */
